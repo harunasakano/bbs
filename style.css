@@ -1,0 +1,70 @@
+div.display{
+	width: 700px;
+}
+
+.selecter{
+  height:30px;
+  width: 200px; 
+}
+
+.item{
+	width: 50%;
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    color: #565656;
+    background: #ffeaea;
+    box-shadow: 0px 0px 0px 10px #ffeaea;
+    border: dashed 2px #ffc3c3;
+    border-radius: 8px;
+}
+
+.message .created_at .password{
+	margin: 0; 
+    padding: 0;
+}
+
+.comment_form{
+	border:0;
+	padding:10px;
+	font-size:1em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 3px #99CCFF;
+	margin:0 0 20px;
+	width:350px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.comment_sub{
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 10px 10px;   /* 余白       */
+  background    : #ff99ff;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #ff99ff;    /* 枠の指定 */
+}
+
+.commentAria{
+	width: 30%;
+    background-color: #cafbce;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #cafbce;
+    color: #0a8915;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.comMessage{
+	font-size: 1em;
+}
+
+.comPostDate{
+	font-size: 0.8em;
+}
